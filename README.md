@@ -13,6 +13,10 @@
 - row-based API - read, update, delete (based on the old v3 row-based calls)
 - managing worksheets - add, remove, resi
 
+## Demo
+
+[Live Demo](https://vuesheet.netlify.app/)
+
 ## Examples 
 
 the following [examples](https://www.npmjs.com/package/google-spreadsheet#examples) are meant to give you an idea of just some of the things you can do
