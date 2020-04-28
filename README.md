@@ -1,4 +1,21 @@
-# vuesheet
+# VueSheet
+
+## Google Sheets API : google-spreadsheet Package
+
+### Installation 
+
+``` npm i google-spreadsheet --save ```
+
+### Features
+
+- multiple auth options - API key, service account (used in this example), oauth
+- cell-based API - read, write, bulk-updates, formatting
+- row-based API - read, update, delete (based on the old v3 row-based calls)
+- managing worksheets - add, remove, resi
+
+## Examples 
+
+the following [examples](https://www.npmjs.com/package/google-spreadsheet#examples) are meant to give you an idea of just some of the things you can do
 
 ## Project setup
 ```
