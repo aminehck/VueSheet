@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
-    <Sheet />
-  </div>
+	<div class="home">
+		<Sheet />
+	</div>
 </template>
 
 <script>
@@ -9,9 +9,9 @@
 import Sheet from '@/components/Sheet.vue'
 
 export default {
-  name: 'Home',
-  components: {
-    Sheet
-  }
+	name: 'Home',
+	components: {
+		Sheet
+	}
 }
 </script>
