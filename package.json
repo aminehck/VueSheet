@@ -10,7 +10,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
-    "google-spreadsheet": "^3.0.11",
+    "google-spreadsheet": "^3.2.0",
     "i": "^0.3.6",
     "sheetsu-node": "0.0.7",
     "vue": "^2.6.11",

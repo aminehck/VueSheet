@@ -5,7 +5,7 @@
 				<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 ">
 					<h2>VueSheet List</h2>
 					<div class="btn-toolbar mb-2 mb-md-0">
-						<a 	href="https://docs.google.com/spreadsheets/d/1oLGI1u68sPh-P1yhWaU7j_WUTHjFMY1aUu6uINfTb0Q/edit?usp=sharing" 
+						<a 	href="https://docs.google.com/spreadsheets/d/1Dv6ezkTo6wO4pB_-NxcscUdmc-RPWAREtZQYNK0GZNg/edit?usp=sharing" 
 							class="btn btn-sm btn-outline-secondary"
 							target="_blank">
 						View Google Sheet
@@ -51,7 +51,7 @@ const creds = require('@/client_secret.json');
 		},
 		methods:{
 			async accessSpreadSheet() {
-				const doc = new GoogleSpreadsheet('1oLGI1u68sPh-P1yhWaU7j_WUTHjFMY1aUu6uINfTb0Q');
+				const doc = new GoogleSpreadsheet('1Dv6ezkTo6wO4pB_-NxcscUdmc-RPWAREtZQYNK0GZNg');
 				await doc.useServiceAccountAuth(creds);
 				await doc.loadInfo(); 
 				const sheet = doc.sheetsByIndex[0];
